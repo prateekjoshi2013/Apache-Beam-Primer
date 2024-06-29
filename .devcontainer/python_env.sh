@@ -1,4 +1,12 @@
 #!/bin/bash
-python3 -m venv /python_env
-source /python_env/bin/activate
-pip install -r /scripts/requirements.txt
+
+arg1=$1
+
+# Create a virtual environment named 'venv'
+python3 -m venv /venv
+
+# Activate the virtual environment
+source /venv/bin/activate
+
+# Install dependencies from requirements.txt
+pip install --no-cache-dir -r $arg1

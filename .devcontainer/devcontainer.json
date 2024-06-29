@@ -5,6 +5,7 @@
 	"dockerComposeFile": "./docker-compose.yml",
 	"service": "devcontainer",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"postAttachCommand": "/scripts/python_env.sh /workspaces/${localWorkspaceFolderBasename}/python/requirements.txt",
 	"customizations": {
 		"vscode": {
 			"extensions": [

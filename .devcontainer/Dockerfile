@@ -19,8 +19,6 @@ RUN chmod +x /scripts/arch_spec_install_script.sh
 
 RUN /scripts/arch_spec_install_script.sh
 
-COPY ./requirements.txt /scripts/
-
 COPY ./python_env.sh /scripts/
 
 RUN chmod +x /scripts/python_env.sh 
@@ -63,5 +61,3 @@ RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.
  && apt-get install -y python3-pip \
  # install venv 
  && apt-get install -y python3.10-venv
-
-RUN /scripts/python_env.sh
