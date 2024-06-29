@@ -1,10 +1,10 @@
 # create venv
 
 ```sh
-python3 -m venv myenv
+python3 -m venv /venv
 ```
 # Activate myenv env
 
 ```sh
-source myenv/bin/activate
+source /venv/bin/activate
 ```
