@@ -7,4 +7,5 @@ python-dotenv==1.0.1
 SQLAlchemy==2.0.31
 typing_extensions==4.12.2
 google-cloud-pubsub==2.21.5
+apache-beam==2.57.0
 apache-beam[gcp,test,docs]==2.57.0

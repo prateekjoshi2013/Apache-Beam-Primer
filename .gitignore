@@ -11,3 +11,4 @@ terraform.tfvars
 myenv
 __pycache__
 alembic.env
+credentials.json

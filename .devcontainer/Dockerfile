@@ -61,3 +61,7 @@ RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.
  && apt-get install -y python3-pip \
  # install venv 
  && apt-get install -y python3.10-venv
+
+RUN python3 -m venv /venv
+
+RUN echo "source /venv/bin/activate" >> ~/.bashrc
