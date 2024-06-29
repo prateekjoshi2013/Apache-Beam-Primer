@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+{
+	"name": "Existing Dockerfile",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "devcontainer",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				// add extensions you want installed in dev env
+				// use the id which can be copied from vscode extension page
+				// for ex: "hashicorp.terraform"
+				"hashicorp.terraform",
+				"ms-python.python",
+				"ms-python.debugpy",
+				"ms-python.black-formatter"
+			]
+		}
+	}
+}
