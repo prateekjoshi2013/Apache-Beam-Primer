@@ -1,0 +1,8 @@
+GCP_PROJECT="playground-s-11-e06f11ac"
+CREDENTIAL_PATH="/workspaces/beam-streaming/python/credentials.json"
+INPUT_FILE="/workspaces/beam-streaming/python/session_window_with_process_timestamp/input/input_data.csv"
+OUTPUT_FILE="outputs/part"
+PUBSUB_TOPIC="my-producer-topic"
+PUBSUB_INPUT_SUBSCRIPTION="my-producer-subscription"
+OUTPUT_TOPIC="my-output-topic"
+OUTPUT_SUBSCRIPTION="my-output-subscription"
